@@ -2,10 +2,10 @@
 <html lang="en-us">
 
 <head>
-  <div class="navbar"
+  <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Lattitude</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html">Lattitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -14,34 +14,34 @@
                       <a class="nav-link" href="#">Comparisons <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="data.html">Data</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                         Plots
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="maxtemp.html=">Max Temp</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                       </div>
                     </li>
                   </ul>
                 </div>
               </nav>
+    </div>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 
 <body>
-
+<div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-8">
             <div class="media">
                     <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig1.png" width="300" height="300" ALIGN="left" class="align-self-start mr-3" alt="Fig1">
                     <div class="media-body">
@@ -59,24 +59,30 @@
                               the source data and visualizations created as part of the analysis,
                               as well as explanations and descriptions of any trends and 
                               correlations witnessed.
+                        </p>
                     </div>
                   </div>
-    
+    </div> <!--close off col-md-8-->
       <aside id ="visualizations">
       <div class="media">
           <div class="col-md-4">
             <h4>Visualizations</h4>
-        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig1.png" width="200" height="200" class="align-self-start mr-3" alt="vs Max Temperature">
+        <a href="maxtemp.html">
+        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig1.png" width="300" height="auto" class="img-" alt="vs Max Temperature"></a>
         <br>
-        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig2.png" width="200" height="200" class="align-self-start mr-3" alt="vs Humidity">
+        <a href="humidity.html">
+        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig2.png" width="350" height="auto" class="img-thumbnail" alt="vs Humidity"></a>
         <br>
-        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig3.png" width="200" height="200" class="align-self-start mr-3" alt="vs Cloudiness">
+        <a href="cloudiness.html">
+        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig3.png" width="200" height="200" class="img-thumbnail" alt="vs Cloudiness"></a>
         <br>
-        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig4.png" width="200" height="200" class="align-self-start mr-3" alt="vs Wind Speed">
+        <a href="windspeed.html">
+        <img src="https://mindful-conscience-812198.netlify.com/11-web/homework/web.files/Fig4.png" width="200" height="200" class="img-thumbnail" alt="vs Wind Speed"></a>
     </div>
     </div>
       </aside>
 
-
-
+</div> <!-- end of the container-->
 </body>
+
+</html>

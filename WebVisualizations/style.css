@@ -1,8 +1,9 @@
-/* <--.navbar{--->
+<!--.navbar--!>
+.navbar-brand{
 padding: 20px
 font-family: didot; serif;
 color: #000000
-background: #339999} */
+background: #339999} 
 
 .media-body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,3 +11,17 @@ background: #339999} */
     color: #4A4646
     background: seashell
 }
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: 40px;   
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    background-color: white
+}
+
+
